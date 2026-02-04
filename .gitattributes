@@ -1,0 +1,12 @@
+# Force LF for all text files (cross-platform consistency)
+* text=auto eol=lf
+
+# Explicit common formats
+*.java  text eol=lf
+*.xml   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
