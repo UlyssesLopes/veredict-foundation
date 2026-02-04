@@ -1,7 +1,7 @@
 package io.veredict.cryptohash.v1.support;
 
-import io.veredict.cryptohash.v1.HashingV1;
-import io.veredict.cryptohash.v1.Sha256HashingV1;
+import io.veredict.cryptohash.v1.api.HashingV1;
+import io.veredict.cryptohash.v1.impl.Sha256HashingV1;
 
 public final class CryptoHashV1GoldenPrinter {
 

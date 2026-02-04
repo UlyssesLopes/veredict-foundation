@@ -1,5 +1,7 @@
 package io.veredict.cryptohash.v1;
 
+import io.veredict.cryptohash.v1.api.HashingV1;
+import io.veredict.cryptohash.v1.impl.Sha256HashingV1;
 import org.junit.jupiter.api.Test;
 
 import java.nio.charset.StandardCharsets;
