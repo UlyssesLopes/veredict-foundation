@@ -1,0 +1,19 @@
+# Maven / Java build
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+*.log

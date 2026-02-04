@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "io.veredict:decision-contract:v1",
+  "title": "Veredict Decision Contract v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "contractVersion": { "type": "string", "const": "1.0" },
+    "ruleBundleRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bundleName": { "type": "string", "minLength": 1 },
+        "bundleVersion": { "type": "string", "minLength": 1 }
+      },
+      "required": ["bundleName", "bundleVersion"]
+    },
+    "context": { "type": "object", "additionalProperties": true },
+    "metadata": { "type": "object", "additionalProperties": true }
+  },
+  "required": ["contractVersion", "ruleBundleRef", "context"]
+}
