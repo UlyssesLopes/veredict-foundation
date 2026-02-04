@@ -1,4 +1,4 @@
-package io.veredict.contract.v1;
+package io.veredict.canonicalization.v1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import static org.junit.jupiter.api.Assertions.assertEquals;

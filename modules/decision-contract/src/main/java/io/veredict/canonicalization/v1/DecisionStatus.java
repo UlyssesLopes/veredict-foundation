@@ -1,4 +1,4 @@
-package io.veredict.contract.v1;
+package io.veredict.canonicalization.v1;
 
 public enum DecisionStatus {
 
