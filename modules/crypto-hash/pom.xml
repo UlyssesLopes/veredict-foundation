@@ -21,6 +21,12 @@
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.veredict</groupId>
+            <artifactId>canonicalization</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

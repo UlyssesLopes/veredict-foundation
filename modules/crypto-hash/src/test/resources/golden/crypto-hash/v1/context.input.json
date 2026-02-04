@@ -1,0 +1,8 @@
+{
+  "userId": "u_123",
+  "country": "BR",
+  "tags": ["vip", "mobile"],
+  "metrics": { "totalStake": 1234.56, "deposits": 10 },
+  "flags": { "kycLevel": 2, "annualUpdateRequired": true },
+  "userCreatedAt": "2024-01-01T00:00:00Z"
+}
