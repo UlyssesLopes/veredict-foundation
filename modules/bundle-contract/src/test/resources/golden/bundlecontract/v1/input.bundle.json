@@ -1,0 +1,26 @@
+{
+  "contractVersion": "bundle.v1",
+  "bundleName": "withdrawal_request_baseline",
+  "bundleVersion": "1.0.0",
+  "createdAt": "2026-02-06T00:00:00Z",
+  "metadata": {
+    "tenant": "acme",
+    "author": "veredict",
+    "notes": "golden fixture"
+  },
+  "signature": {
+    "algorithm": "placeholder",
+    "keyId": "placeholder",
+    "signature": "placeholder"
+  },
+  "bundle": {
+    "rules": [
+      {
+        "type": "RULE_STUB",
+        "id": "r1",
+        "description": "placeholder AST until we bind real dsl-model root type"
+      }
+    ]
+  },
+  "bundleHash": "0000000000000000000000000000000000000000000000000000000000000000"
+}

@@ -17,6 +17,7 @@
         <module>modules/crypto-hash</module>
         <module>modules/dsl-model</module>
         <module>modules/test-fixtures</module>
+        <module>modules/bundle-contract</module>
     </modules>
 
     <properties>

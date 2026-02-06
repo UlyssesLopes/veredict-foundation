@@ -1,0 +1,1 @@
+{"bundle":{"rules":[{"description":"placeholder AST until we bind real dsl-model root type","id":"r1","type":"RULE_STUB"}]},"bundleName":"withdrawal_request_baseline","bundleVersion":"1.0.0","contractVersion":"bundle.v1","createdAt":"2026-02-06T00:00:00Z","metadata":{"author":"veredict","notes":"golden fixture","tenant":"acme"}}
