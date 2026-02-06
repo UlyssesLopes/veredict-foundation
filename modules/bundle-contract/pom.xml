@@ -18,6 +18,13 @@
     <dependencies>
 
         <dependency>
+            <groupId>com.networknt</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>1.5.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>io.veredict</groupId>
             <artifactId>dsl-model</artifactId>
             <version>${project.version}</version>
